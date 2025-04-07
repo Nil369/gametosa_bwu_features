@@ -12,6 +12,10 @@ body {
     background-color: #ffffff;
 }
 
+li::marker{
+    color: #1DB5ED;
+}
+
 /* Main content */
 .content {
     width: 100%;
@@ -33,7 +37,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.336);
     padding: 30px;
-    scale: 1.05;
+    scale: 1.02;
 }
 
 .event-name {
